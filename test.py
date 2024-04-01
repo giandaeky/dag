@@ -15,7 +15,7 @@ default_args = {
     'retries': 1,
 }
 
-dag = DAG('simple_git_sync_test',
+dag = DAG('git_sync_test',
           default_args=default_args,
           description='A simple DAG for testing Git synchronization',
           schedule_interval='@once',
